@@ -92,7 +92,7 @@ summary(bestRoach)
 
 ### Best Two variable equation
 
-Weight = -319.188 + 72.300*Width + 8.278*Width
+Weight = -319.188 + 72.300*Width + 8.278*Length3
 
 ## Final Summary Statements
 
@@ -100,4 +100,4 @@ The best models using two variable to predict Perch weight, are Height & Width.
 
 The best model using 2 variables to predict Pike weight, are Length1 and Length3 models.
 
-The best model using 2 variables to predict Perch weight, and compare this to the best overall model. 
+The best model using 2 variables to predict Roach weight, are Width and Length3.
