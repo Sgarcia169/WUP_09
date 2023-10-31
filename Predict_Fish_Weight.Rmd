@@ -96,6 +96,8 @@ Weight = -319.188 + 72.300*Width + 8.278*Width
 
 ## Final Summary Statements
 
-The best progressor models using two variable for Prich are Height & Width. 
+The best models using two variable to predict Perch weight, are Height & Width. 
 
-The best two 
+The best model using 2 variables to predict Pike weight, are Length1 and Length3 models.
+
+The best model using 2 variables to predict Perch weight, and compare this to the best overall model. 
