@@ -64,13 +64,13 @@ summary(modelPike)
 ```
 
 ```{r}
-bestPike = lm(Weight ~ Length1 + Length2, data = Pike)
+bestPike = lm(Weight ~ Length1 + Length3, data = Pike)
 summary(bestPike)
 ```
 
 ### Best Two variable equation
 
-Weight = -1461.6 + -353*Length1 + 377.6*Length2
+Weight = -1675.79 + -105.64*Length1 + 141.25*Length3
 
 ## Roach
 
@@ -78,7 +78,7 @@ Weight = -1461.6 + -353*Length1 + 377.6*Length2
 Roach = filter(fish, Species == 'Roach')
 ```
 
-### Best Models
+### Best 2 Progressor models
 
 ```{r}
 modelRoach = regsubsets(Weight ~ Length1 + Length2 + Length3 + Height + Width, data = Roach, )
@@ -86,12 +86,16 @@ summary(modelRoach)
 ```
 
 ```{r}
-bestRoach = lm(Weight ~ Length1 + Length2, data = Roach)
+bestRoach = lm(Weight ~ Width + Length3, data = Roach)
 summary(bestRoach)
 ```
 
-### Best Two regressor model
+### Best Two variable equation
 
-Weight = -352.71 + -24.18*Length1 + 45.07*Length2
+Weight = -319.188 + 72.300*Width + 8.278*Width
 
 ## Final Summary Statements
+
+The best progressor models using two variable for Prich are Height & Width. 
+
+The best two 
